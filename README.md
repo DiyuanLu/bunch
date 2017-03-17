@@ -1,9 +1,6 @@
 bunch
 =====
-
-
-    ```javascript
-
+````py
      1. 
      #make sure that your script is at the same folder as bunch foler. 
      #Then you can import like this:
@@ -23,8 +20,6 @@ bunch
      import utils.bunch
      b=utils.bunch.Bunch()
     ```
-
-  
 
 
 Bunch is a dictionary that supports attribute-style access, a la JavaScript.
