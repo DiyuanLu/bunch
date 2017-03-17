@@ -1,7 +1,24 @@
 bunch
 =====
+1. 
+#make sure that your script is at the same folder as bunch foler. 
+#Then you can import like this:
 
+import bunch 
+
+b = bunch.Bunch()
+-------------------------------------------------
+2. 
+#if your script is not in the same folder as bunch(folder), let's say in 'utils'folder, 
+#you can do as follows;
+
+from utils import bunch as bunch
+b = bunch.Bunch()
 Bunch is a dictionary that supports attribute-style access, a la JavaScript.
+
+3.#pay attention how the import works
+import utils.bunch
+b=utils.bunch.Bunch()
 
 ````py
 >>> b = Bunch()
@@ -17,7 +34,6 @@ True
 >>> b.foo is b['foo']
 True
 ````
-
 
 Dictionary Methods
 ------------------
